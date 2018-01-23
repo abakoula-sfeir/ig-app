@@ -1,0 +1,11 @@
+# Ignore file
+
+# eclipse files
+.classpath
+.project
+.settings/
+/.gradle/
+
+/build/
+/bin/
+

@@ -39,7 +39,7 @@ sonarqube {
     properties {
         property 'sonar.projectName', 'ig-app palindrome'
         property "sonar.java.coveragePlugin", "jacoco"
-        property "sonar.jacoco.reportPaths" , "${project.buildDir}/jacoco/test"
+        property "sonar.jacoco.reportPaths" , "${project.buildDir}/jacoco/*.exec"
     }
 }
 
